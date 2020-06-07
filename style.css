@@ -56,7 +56,7 @@ span
 }
 @media only screen and (max-width:500px) {
 	
-    .span, .li, .topics, .nav {
+    .span, .li, .topics, .nav , p{
      width: 100%;
    }
    .container {
