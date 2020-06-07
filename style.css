@@ -1,0 +1,66 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:whitesmoke;
+    color: purple;
+}
+.nav{
+    overflow: hidden;
+    background-color:black;
+    }
+    .nav a{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    .nav a:hover
+    {
+    background-color: green;
+    color: black;
+    }
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+.topics
+{
+    width: 28%;
+    padding: 10px;
+    border: 5px solid rgb(85, 85, 85);
+    margin: 8%;
+    position: relative;
+    display: block;
+    float: left;
+    height:210px;
+    background-color: rgb(176, 225, 241);
+}
+li
+{
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:midnightblue;
+}
+span
+{
+    color: crimson;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media only screen and (max-width:500px) {
+	
+    .span, .li, .topics, .nav {
+     width: 100%;
+   }
+   .container {
+       width: 100%;
+       padding: 80px;
+   }
+ }
