@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-	height: 70%;
+	height: 60%;
 	width: 1000px;
 	position: absolute;
 	top: 50%;
@@ -87,5 +87,6 @@ body{
 	.container {
 		width: 100%;
 		padding: 80px;
+		height:80%;
 	}
   }
